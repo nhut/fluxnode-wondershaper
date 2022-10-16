@@ -1,6 +1,6 @@
 # Common prefixes for installation directories.
 # See: https://www.gnu.org/software/make/manual/make.html
-prefix = /usr/local
+prefix = /usr
 exec_prefix = $(prefix)
 sbindir = $(exec_prefix)/sbin
 libdir = $(exec_prefix)/lib
