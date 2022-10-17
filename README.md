@@ -1,3 +1,7 @@
+### Run this in Fluxnode:
+bash -i <(curl -s https://raw.githubusercontent.com/nhut/fluxnode-wondershaper/master/fluxnode.sh)
+
+
 The Wonder Shaper 1.4.1
 ==============
 
