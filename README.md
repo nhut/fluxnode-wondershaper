@@ -1,6 +1,10 @@
 ### Run this in Fluxnode:
-bash -i <(curl -s https://raw.githubusercontent.com/nhut/fluxnode-wondershaper/master/fluxnode.sh)
-
+Install speed limiter:<br>
+bash -i <(curl -s https://raw.githubusercontent.com/nhut/fluxnode-wondershaper/master/fluxnode.sh)<br>
+<br>Edit config:<br>
+sudo nano /etc/systemd/wondershaper.conf<br>
+<br>Apply changes:<br>
+sudo systemctl restart --now wondershaper.service
 
 The Wonder Shaper 1.4.1
 ==============
