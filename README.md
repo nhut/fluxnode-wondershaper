@@ -4,7 +4,9 @@ bash -i <(curl -s https://raw.githubusercontent.com/nhut/fluxnode-wondershaper/m
 <br>Edit config:<br>
 sudo nano /etc/systemd/wondershaper.conf<br>
 <br>Apply changes:<br>
-sudo systemctl restart --now wondershaper.service
+sudo systemctl restart --now wondershaper.service<br>
+<br>Disable speed limiter:<br>
+sudo systemctl disable --now wondershaper.service<br>
 
 The Wonder Shaper 1.4.1
 ==============
