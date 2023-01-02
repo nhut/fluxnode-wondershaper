@@ -9,6 +9,9 @@ sudo nano /etc/systemd/wondershaper.conf<br>
 sudo systemctl restart --now wondershaper.service<br>
 <br>Disable speed limiter:<br>
 sudo systemctl disable --now wondershaper.service<br>
+<br><br>
+Uninstall speed limiter:<br>
+sudo systemctl stop --now wondershaper.service && sudo systemctl disable --now wondershaper.service && sudo rm -rf /usr/lib/systemd/system/wondershaper.service && sudo systemctl daemon-reload && sudo systemctl reset-failed
 
 The Wonder Shaper 1.4.1
 ==============
