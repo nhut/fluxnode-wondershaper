@@ -2,7 +2,7 @@
 Install speed limiter:<br>
 bash -i <(curl -s https://raw.githubusercontent.com/nhut/fluxnode-wondershaper/master/fluxnode.sh)<br>
 <br><br>
--------------
+Run these if you have troubles with speed.<br>
 <br>Edit config:<br>
 sudo nano /etc/systemd/wondershaper.conf<br>
 <br>Apply changes:<br>
